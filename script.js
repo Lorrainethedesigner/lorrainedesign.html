@@ -1,4 +1,4 @@
-function top() {
+/*function top() {
     document.getElementById( 'top' ).scrollIntoView();
 };
 
@@ -8,3 +8,4 @@ function bottom() {
 };
 
 bottom();
+*/

@@ -1,27 +1,38 @@
-.wrapper {
-  align-items: center;
-  height: 100%;    /*moves text go down/up page*/
-  width: 100%;     /*moves text inward/outward */
-  display: flex;   /*acts as block */
-  position: fixed;
- justify-content: center;
-}
-#lorraine {
+
+h1 {
   font-family: "Poppins";
   font-size: 80px;
   color: white;
+  align-items: center;
+  height: 50%;    /*moves text go down/up page*/
+  width: 100%;     /*moves text inward/outward */
+  display: flex;
+  position: fixed;
+  justify-content: center;
 }
 
-#caption {
+p {
   font-family: "Poppins";
   font-size: 10px;
-  margin-top: 0%;
   color: white;
-}
-body {
-  background-color: #ec5c73;
+  margin-top: 3%;
+  align-items: center;
+  height: 65%;    /*moves text go down/up page*/
+  width: 122%;     /*moves text inward/outward */
+  display: flex;
+  position: fixed;
+  justify-content: center;
 }
 
+#background {
+    max-width: 1366px;
+    height: 768px;
+    padding: 0%;
+    background-color: #ec5c73;
+}
+
+
+/*
 #top {
     border: 1px solid black;
     height: 3000px;
@@ -30,3 +41,4 @@ body {
 #bottom {
     border: 1px solid red;
 }
+*/
