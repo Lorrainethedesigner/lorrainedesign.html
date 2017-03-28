@@ -1,0 +1,23 @@
+.wrapper {
+  align-items: center;
+  height: 100%;    /*moves text go down/up page*/
+  width: 100%;     /*moves text inward/outward */
+  display: flex;   /*acts as block */
+  position: fixed;
+ justify-content: center;
+}
+#lorraine {
+  font-family: "Poppins";
+  font-size: 80px;
+  color: white;
+}
+
+#caption {
+  font-family: "Poppins";
+  font-size: 10px;
+  margin-top: 0%;
+  color: white;
+}
+body {
+  background-color: #ec5c73;
+}
